@@ -1,0 +1,100 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+.bannerContent h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+.bannerContent p{
+    font-size: 22px;
+}
+.bannerContent ul{
+    list-style: none;
+}
+.bannerContent ul li{
+    font-size: 22px;
+
+}
+.bannerContent span{
+    color: #2699FB;
+}
+.bannerContent ul li i{
+    color: #2699FB;
+}
+.bannerContentBtn button{
+    width: 50%;
+}
+.bannerContentBtn button:first-child{
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+.bannerForm{
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.bannerForm h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.bannerForm button{
+    width: 100%;
+    padding: 10px 0px;
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+    border: none;
+    color: white;
+}
+.counterSection h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #2699FB; 
+}
+.hightlight-section{
+    background-color: #F7FAFF;
+}
+.hightlight-section h2{
+    color: #0A2134;
+    font-size: 36px;
+    font-weight: 700;
+}
+.hightlight-section p{
+    font-size: 18px;
+}
+.hightlightsitems h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.hightlightsitems p{
+    font-size: 15px;
+}
+#navbarNav ul li a{
+    font-weight: bold;
+    margin-right: 15px;
+    color: #2699FB;
+}
+.tabItemsContent ul{
+    list-style: none;
+}
+.tabMySystem .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #F7FAFF;
+    color: #0A2134;
+    border: 2px solid blue;
+    border-radius: 0px;
+}
+.custom-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .custom-footer .insta-link {
+    color: #00acee;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .custom-footer .insta-link:hover {
+    text-decoration: underline;
+  }

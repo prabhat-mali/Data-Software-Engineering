@@ -1,0 +1,67 @@
+
+@media only screen and (min-width:200px) and (max-width:575px){
+    .btn-outer{
+        z-index: 9999;
+        position: fixed;
+        bottom: 0px; 
+        width: 100%;
+        background-color: white;
+        padding: 5px 0px;
+        left: 0px;
+        justify-content: center !important;
+    }
+    .whatshap,.call{
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+    .bannerContent h1{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 35px;
+    }
+    .bannerContent br{
+        display: none;
+    }
+    .bannerContent p,.bannerContent ul li{
+        font-size: 16px;
+    }
+    .bannerContentBtn{
+        flex-direction: column;
+    }
+    .bannerContentBtn button{
+        width: 100%;
+    }
+    .bannerForm{
+        padding: 20px;
+    
+    }
+    .hightlight-section h2{
+        font-size: 26px;
+    }
+    figure img{
+        max-width: 130px;
+    }
+    .custom-footer {
+        background-color: #000;
+        color: #fff;
+        padding: 65px 0;
+        padding-top: 15px;
+      }
+      
+      .custom-footer .insta-link {
+        color: #00acee;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      
+      .custom-footer .insta-link:hover {
+        text-decoration: underline;
+      }
+}
+    
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1170px;
+    }
+}
